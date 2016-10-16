@@ -5,3 +5,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+div {
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+}
+
+body {
+  margin: 0px;
+}
