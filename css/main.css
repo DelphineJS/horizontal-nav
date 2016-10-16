@@ -6,6 +6,11 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  background-color: #dbd6cf;
+  line-height: 1.5rem;
+}
+
 div {
   background-color: #79756f;
   border-top: 3px solid #595652;
@@ -14,4 +19,10 @@ div {
 
 body {
   margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bevan', cursive;
+  color: #fff;
 }
