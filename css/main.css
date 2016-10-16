@@ -34,3 +34,18 @@ h1 {
   font-family: 'Bevan', cursive;
   color: #fff;
 }
+
+ /* Box styling */
+
+.buttons li {
+  display: inline-block;
+  background-color: #713837;
+  font-family: sans-serif;
+}
+
+ /* Link styling */
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
