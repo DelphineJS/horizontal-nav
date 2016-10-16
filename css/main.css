@@ -14,8 +14,7 @@ header {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
-  margin-top; 0.5em;
-  margin-bottom: 0.75em;
+  margin: 0;
 }
 
 body {
@@ -28,14 +27,15 @@ h1 {
   text-align: center;
   font-family: "Bevan", serif;
   color: #fff;
+  margin-bottom: 0;
 }
 
 /* Box styling */
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0.3em;
+  padding: 0.6em;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ nav li {
   display: inline;
 }
 
-nav a{
+nav a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
