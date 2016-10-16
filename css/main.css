@@ -6,36 +6,36 @@ html {
   box-sizing: inherit;
 }
 
- /* All-over styling */
+/* All-over styling */
 
 html {
   background-color: #dbd6cf;
   line-height: 1.5rem;
 }
 
- /* Content box styling */
+/* Content box styling */
 
-div {
+header {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
 }
 
- /* Margin styling */
+/* Margin styling */
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
- /* Header typography */
+/* Header typography */
 
 h1 {
   text-align: center;
-  font-family: 'Bevan', cursive;
+  font-family: "Bevan", sans-serif;
   color: #fff;
 }
 
- /* Box styling */
+/* Box styling */
 
 nav ul {
   text-align: center;
@@ -48,9 +48,14 @@ nav ul {
   margin-bottom: 0.3em;
   padding: .6em;
   border-radius: 4px;
+  list-style-type: none;
 }
 
- /* Link styling */
+nav li:hover {
+  background-color: #f33;
+}
+
+/* Link styling */
 
 a {
   color: #fff;
