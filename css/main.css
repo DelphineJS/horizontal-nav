@@ -6,10 +6,14 @@ html {
   box-sizing: inherit;
 }
 
+ /* All-over styling */
+
 html {
   background-color: #dbd6cf;
   line-height: 1.5rem;
 }
+
+ /* Content box styling */
 
 div {
   background-color: #79756f;
@@ -17,9 +21,13 @@ div {
   border-bottom: 3px solid #595652;
 }
 
+ /* Margin styling */
+
 body {
   margin: 0px;
 }
+
+ /* Header typography */
 
 h1 {
   text-align: center;
